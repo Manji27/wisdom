@@ -1,0 +1,50 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+    --main-color: #172554;
+    --secondary-color: #f5e5ea;
+    --tertiary-color : #bc5274;
+  }
+
+body {
+    /* background: #f5f4f5; */
+    font-family: 'Roboto';
+}
+
+button {
+    background: #14274f;
+    color:#f5f4f5 !important ;
+    
+}
+button:hover {
+    background: #312E81;
+}
+
+.wisdom-btn {
+    background: #14274f !important;
+    color:#f5f4f5 !important ;
+}
+.wisdom-btn:hover {
+    background: #172554;
+}
+
+.wis-primary {
+    background: var(--main-color) ;
+}
+.card-container {
+   
+}
+.tox .tox-mbtn {
+    color: black !important;
+}
+.prevent {
+    background: inherit;
+}
+.prevent:hover {
+    background: inherit;
+}
+.tox .tox-tbtn {
+    color:  black;
+}
